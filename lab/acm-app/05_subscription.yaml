@@ -6,7 +6,7 @@ metadata:
   labels:
     app: httpd
   annotations:
-    apps.open-cluster-management.io/github-branch: master
+    apps.open-cluster-management.io/github-branch: main
     apps.open-cluster-management.io/github-path: app
 spec:
   channel:  simple-app/federation
