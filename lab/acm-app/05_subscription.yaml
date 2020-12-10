@@ -9,8 +9,6 @@ metadata:
     apps.open-cluster-management.io/github-branch: main
     apps.open-cluster-management.io/github-path: app
 spec:
-  channel:  simple-app/federation
+  channel:  simple-app/simple-app-channel
   placement: 
-    placementRef: 
-      kind: PlacementRule
-      name: cluster1only     
+    name: 2b9d

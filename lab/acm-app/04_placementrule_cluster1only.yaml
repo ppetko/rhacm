@@ -8,4 +8,4 @@ metadata:
 spec:
   clusterSelector:
     matchLabels:
-      clusterid: 2b9d
+      name: 2b9d

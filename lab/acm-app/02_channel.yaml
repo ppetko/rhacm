@@ -1,7 +1,7 @@
 apiVersion: apps.open-cluster-management.io/v1
 kind: Channel
 metadata:
-  name: federation
+  name: simple-app-channel
   namespace: simple-app
 spec:
   pathname: 'https://github.com/ppetko/rhacm.git'
