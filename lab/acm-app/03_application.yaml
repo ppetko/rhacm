@@ -1,15 +1,15 @@
 apiVersion: app.k8s.io/v1beta1
 kind: Application
 metadata:
-  name: httpd     
-  namespace: simple-app  
+  name: simple-app
+  namespace: simple-app
 spec:
   selector:
     matchExpressions:
-      - key: app  
-        operator: In
-        values:
-        - httpd 
+    - key: name  
+      operator: In
+      values:
+      - simple-app
   componentKinds:
   - group: app.ibm.com/v1alpha1
     kind: Subscription
